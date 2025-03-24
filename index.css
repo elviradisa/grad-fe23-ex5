@@ -1,0 +1,221 @@
+:root {
+    --dark-red: #45141a;
+    --light-pink: #ea9daf;
+    --light-pink-opacity: #ea9daf85;
+    --caramel: #fbde9c;
+    --orange: #f99056;
+    --red: #c84c50;
+}
+
+@font-face {
+    font-family: 'lostar';
+    src: url('./font/Lostar.ttf');
+    /* font-family: 'emynam';
+    src: url('./font/EmynamCrew-Regular.ttf'); */
+    /* font-family: 'brave';
+    src: url('./font/Brave.ttf'); */
+    /* font-family: 'aurora';
+    src: url('./font/AURORA-PRO.otf'); */
+}
+
+@keyframes gradient-swipe {
+    0% { background-position: -100% 0; }
+    100% { background-position: 100% 0; }
+}
+
+.gradient-text {
+    background: linear-gradient(90deg, #45141a, #c84c50, #f37632, #c84c50, #45141a);
+    background-size: 200% 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradient-swipe 7s linear infinite;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('./img/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#container {
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: scroll;
+}
+
+.wrapper {
+    background-color: var(--light-pink-opacity);
+    border-radius: 30px;
+    width: 90%;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'lostar';
+    color: var(--dark-red);
+    font-size: xx-large;
+    text-align: center;
+    border: 1px solid #45141a;
+    border-radius: 30px;
+    line-height: 55px;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 40px;
+}
+
+h2 {
+    margin: 0;
+    font-size: 60px;
+}
+
+.header-stars {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.star {
+    width: 30px;
+}
+
+.main {
+    margin-top: 15px;
+    height: 300px;
+    display: grid;
+    grid-template-columns: 3fr 2fr; /* Fördelar 3/5 och 2/5 av bredden */
+    gap: 15px;
+}
+
+.main-image {
+    border: 1px solid #45141a;
+    border-radius: 0 100px;
+    /* background-color: var(--light-pink); */
+}
+
+.main-image-overlay {
+    background-image: url('./img/lilja.png');
+    background-size: 300px;
+    background-repeat: no-repeat;
+    height: 100%;
+    filter: drop-shadow(-5px 30px 8px #8f0f1e86);
+
+}
+
+.main-info {
+    /* background-color: var(--light-pink); */
+    color: var(--dark-red);
+    border: 1px solid #45141a;
+    font-family: 'lostar';
+    border-radius: 100px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    letter-spacing: 1.5px;
+}
+
+.day {
+    margin: 0;
+    font-size: 20px;
+}
+
+.year {
+    margin: 0;
+    font-size: 25px;
+}
+
+.star-top {
+    width: 15px;
+    position: absolute;
+    right: 160px;
+}
+.star-right {
+    width: 25px;
+    position: absolute;
+    right: 20px;
+    top: 300px;
+}
+.star-left {
+    width: 20px;
+    position: absolute;
+    top: 480px;
+}
+
+.wire {
+    width: 100%;
+    max-width: 500px;
+    display: block;
+    margin: 20px auto;
+}
+
+.image-gallery {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Standard: 2 kolumner */
+    gap: 15px;
+    justify-content: center;
+}
+
+/* För tablets */
+@media (min-width: 768px) {
+    .image-gallery {
+        grid-template-columns: repeat(3, 1fr); /* 3 kolumner */
+    }
+}
+
+/* För desktops */
+@media (min-width: 1024px) {
+    .image-gallery {
+        grid-template-columns: repeat(4, 1fr); /* Max 4 kolumner */
+    }
+}
+
+/* Anpassa bildstorleken */
+.image-gallery img {
+    width: 100%; /* Anpassa till gridens bredd */
+    height: 250px;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.wrapper > .add-image {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.add-image {
+    position: fixed;
+    left: 50%; 
+    transform: translateX(-50%);
+    bottom: 20px;
+    background-image: url('./img/plus.png');
+    width: 60px; 
+    height: 60px;
+    background-size: cover;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.add-image:hover {
+    background-color: #e39dae;
+}
