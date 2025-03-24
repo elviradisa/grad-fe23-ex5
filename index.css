@@ -218,5 +218,7 @@ h2 {
 
 .add-image:hover {
     background-color: #e39dae;
+    border-radius: 50%;
+    padding: 10px;
 }
 
