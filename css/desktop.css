@@ -1,0 +1,5 @@
+@media (min-width: 1024px) {
+    .image-gallery {
+        grid-template-columns: repeat(4, 1fr); /* Max 4 kolumner */
+    }
+}

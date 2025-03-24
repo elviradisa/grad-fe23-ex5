@@ -1,0 +1,49 @@
+@media (min-width: 768px) {
+    body {
+        background-image: url('../img/blue.jpg');
+    }
+
+    .wrapper {
+        background-color: var(--caramel-opacity);
+    }
+
+    .header {
+        border: 1px solid #23163f;
+        color: #470f45;
+    }
+
+    .main-image {
+        border: 1px solid #23163f;
+    }
+
+    .main-image-overlay {
+        background-image: url('../img/p.png');
+        filter: drop-shadow(-5px 30px 8px #3b138b90);
+
+    }
+
+    .main-info {
+        color: #23163f;
+        border: 1px solid #23163f;
+    }
+    
+    .gradient-text {
+        background: linear-gradient(90deg, #423f83, #645cb0, #6ca8a3, #645cb0, #423f83);
+        background-size: 200% 100%;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: gradient-swipe 7s linear infinite;
+    }
+
+    .image-gallery {
+        grid-template-columns: repeat(3, 1fr); /* 3 kolumner */
+    }
+
+    .add-image {
+        background-image: url('../img/plus-gul.png');
+    }
+       
+    .add-image:hover {
+        background-color: #23163f;
+    }
+}

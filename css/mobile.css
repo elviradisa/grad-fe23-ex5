@@ -1,0 +1,45 @@
+@media (max-width: 768px) {
+    body {
+        background-image: url('../img/background.jpg');
+    }
+
+    .wrapper {
+        background-color: var(--light-pink-opacity);
+    }
+
+    .header {
+        border: 1px solid #45141a;
+        color: var(--dark-red);
+    }
+
+    .main-image {
+        border: 1px solid #45141a;
+    }
+
+    .main-image-overlay {
+        background-image: url('../img/lilja.png');
+        filter: drop-shadow(-5px 30px 8px #8f0f1e86);
+
+    }
+
+    .main-info {
+        color: var(--dark-red);
+        border: 1px solid #45141a;
+    }
+    
+    .gradient-text {
+        background: linear-gradient(90deg, #45141a, #c84c50, #f37632, #c84c50, #45141a);
+        background-size: 200% 100%;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: gradient-swipe 7s linear infinite;
+    }
+
+    .add-image {
+        background-image: url('../img/plus.png');
+    }
+
+    .add-image:hover {
+        background-color: #e39dae;
+    }
+}
