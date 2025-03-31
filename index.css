@@ -197,3 +197,47 @@ a {
     cursor: pointer;
     z-index: 1000;
 }
+
+body {
+    background-image: url('../img/liquid.jpg');
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.wrapper {
+    background-color: #9a080800;
+}
+
+.header {
+    border: 2px solid rgb(255, 255, 255);
+    color: white;
+}
+
+.star {
+    display: none;
+} 
+
+.white-star {
+    width: 30px;
+}
+
+.main-image {
+    border: 2px solid white;
+}
+
+.main-info {
+    color: white;
+    border: 2px solid white;
+}
+
+.wire {
+    display: none;
+}
+
+.add-image {
+    background-image: url('../img/plus-white.png');
+}
+   
+.add-image:hover {
+    background-color: white;
+}
