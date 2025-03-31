@@ -1,4 +1,4 @@
-@media (min-width: 769px) {
+@media (max-width: 769px) {
     body {
         background-image: url('../img/röd-brudslöja.avif');
         background-position: center;
@@ -46,6 +46,23 @@
     .year {
         font-size: 35px;
         text-align: center;
+    }
+
+    a {
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .menu-mobile {
+        display: flex;
+        justify-content: space-around;
+        padding: 30px;
+    }
+
+    .menu-border {
+        border: 1px solid white;
     }
 
     .wire {
