@@ -64,7 +64,9 @@ body {
     border-radius: 30px;
     line-height: 55px;
     padding: 20px;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.564);
+    border: 2px solid rgb(255, 255, 255);
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.252);
 }
 
 h1 {
@@ -75,6 +77,10 @@ h1 {
 h2 {
     margin: 0;
     font-size: 60px;
+}
+
+.white-star {
+    width: 30px;
 }
 
 .header-stars {
@@ -99,6 +105,7 @@ h2 {
 
 .main-image {
     border-radius: 0 100px;
+    border: 2px solid white;
 }
 
 a {
@@ -123,6 +130,8 @@ a {
 }
 
 .main-info {
+    color: white;
+    border: 2px solid white;
     font-family: 'lostar';
     border-radius: 100px 0;
     display: flex;
@@ -161,13 +170,6 @@ a {
     top: 480px;
 }
 
-.wire, .white-wire {
-    width: 100%;
-    max-width: 500px;
-    display: block;
-    margin: 20px auto;
-}
-
 .image-gallery {
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* Standard: 2 kolumner */
@@ -198,39 +200,6 @@ a {
     background-size: cover;
     cursor: pointer;
     z-index: 1000;
-}
-
-.wrapper {
-    background-color: #9a080800;
-}
-
-.header {
-    border: 2px solid rgb(255, 255, 255);
-    color: white;
-}
-
-.star {
-    display: none;
-} 
-
-.white-star {
-    width: 30px;
-}
-
-.main-image {
-    border: 2px solid white;
-}
-
-.main-info {
-    color: white;
-    border: 2px solid white;
-}
-
-.wire {
-    display: none;
-}
-
-.add-image {
     background-image: url('../img/plus-white.png');
 }
    
