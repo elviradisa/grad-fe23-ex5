@@ -98,9 +98,24 @@ h2 {
     border-radius: 0 100px;
 }
 
-.main-image-overlay {
-    background-repeat: no-repeat;
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.menu-mobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     height: 100%;
+    gap: 20px;
+    margin-left: 30%;
+}
+
+.menu-border {
+    border: 1px solid white;
 }
 
 .main-info {
