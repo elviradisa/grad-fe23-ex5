@@ -52,6 +52,7 @@ body {
     margin-top: 20px;
     margin-bottom: 20px;
     background-color: transparent;
+    background-attachment: fixed;
 }
 
 .header {
