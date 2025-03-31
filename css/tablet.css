@@ -1,38 +1,55 @@
-@media (min-width: 768px) {
+@media (min-width: 769px) {
     body {
-        background-image: url('../img/blue.jpg');
+        background-image: url('../img/röd-brudslöja.avif');
+        background-position: center;
     }
 
     .wrapper {
-        background-color: var(--caramel-opacity);
+        background-color: #9a080800;
     }
 
     .header {
-        border: 1px solid #23163f;
-        color: #470f45;
+        border: 2px solid white;
+        color: white;
+        text-shadow: 5px 5px 10px #4e1d1d4c;
+    }
+
+    .star {
+        display: none;
+    } 
+
+    .white-star {
+        width: 30px;
     }
 
     .main-image {
-        border: 1px solid #23163f;
+        border: 2px solid white;
     }
 
     .main-image-overlay {
-        background-image: url('../img/p.png');
-        filter: drop-shadow(-5px 30px 8px #3b138b90);
-
+        /* background-image: url('../img/cherry.png');
+        /* filter: drop-shadow(-5px 30px 8px #3b138b90); */
+        /* background-size: 400px;
+        background-position: center; */ 
     }
 
     .main-info {
-        color: #23163f;
-        border: 1px solid #23163f;
+        color: white;
+        text-shadow: 5px 5px 10px #4e1d1d4c;
+        border: 2px solid white;
     }
-    
-    .gradient-text {
-        background: linear-gradient(90deg, #423f83, #645cb0, #6ca8a3, #645cb0, #423f83);
-        background-size: 200% 100%;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        animation: gradient-swipe 7s linear infinite;
+
+    .day {
+        font-size: 30px;
+    }
+
+    .year {
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .wire {
+        display: none;
     }
 
     .image-gallery {
@@ -44,6 +61,6 @@
     }
        
     .add-image:hover {
-        background-color: #23163f;
+        background-color: white;
     }
 }

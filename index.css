@@ -99,7 +99,6 @@ h2 {
 }
 
 .main-image-overlay {
-    background-size: 300px;
     background-repeat: no-repeat;
     height: 100%;
 }
@@ -142,7 +141,7 @@ h2 {
     top: 480px;
 }
 
-.wire {
+.wire, .white-wire {
     width: 100%;
     max-width: 500px;
     display: block;
@@ -150,7 +149,6 @@ h2 {
 }
 
 .image-gallery {
-    margin-top: 20px;
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* Standard: 2 kolumner */
     gap: 15px;

@@ -8,23 +8,27 @@
     }
 
     .header {
-        border: 1px solid #45141a;
+        border: 2px solid #45141a;
         color: var(--dark-red);
     }
 
+    .white-star {
+        display: none;
+    } 
+
     .main-image {
-        border: 1px solid #45141a;
+        border: 2px solid #45141a;
     }
 
     .main-image-overlay {
         background-image: url('../img/lilja.png');
         filter: drop-shadow(-5px 30px 8px #8f0f1e86);
-
+        background-size: 300px;
     }
 
     .main-info {
         color: var(--dark-red);
-        border: 1px solid #45141a;
+        border: 2px solid #45141a;
     }
     
     .gradient-text {
@@ -34,6 +38,27 @@
         -webkit-text-fill-color: transparent;
         animation: gradient-swipe 7s linear infinite;
     }
+
+    a {
+        color: #45141a;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .menu-mobile {
+        display: flex;
+        justify-content: space-around;
+        padding: 30px;
+    }
+
+    .menu-border {
+        border: 1px solid #45141a;
+    }
+
+    /* .white-wire {
+        display: none;
+    } */
 
     .add-image {
         background-image: url('../img/plus.png');
