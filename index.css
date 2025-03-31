@@ -31,6 +31,8 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    background-image: url('img/liquid.jpg');
+    background-position: center;
 }
 
 #container {
@@ -196,12 +198,6 @@ a {
     background-size: cover;
     cursor: pointer;
     z-index: 1000;
-}
-
-body {
-    background-image: url('./img/liquid.jpg');
-    background-position: center;
-    background-attachment: fixed;
 }
 
 .wrapper {
