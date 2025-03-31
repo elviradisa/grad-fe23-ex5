@@ -70,7 +70,7 @@ body {
     padding: 20px;
     border: 2px solid rgb(255, 255, 255);
     color: white;
-    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.492);
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.273);
 }
 
 h1 {
@@ -103,12 +103,12 @@ h2 {
     margin-top: 15px;
     height: 300px;
     display: grid;
-    grid-template-columns: 3fr 2fr; /* Fördelar 3/5 och 2/5 av bredden */
+    grid-template-columns: 2fr 3fr; /* Fördelar 3/5 och 2/5 av bredden */
     gap: 15px;
 }
 
 .main-image {
-    border-radius: 0 100px;
+    border-radius: 100px 0;
     border: 2px solid white;
 }
 
@@ -137,7 +137,7 @@ a {
     color: white;
     border: 2px solid white;
     font-family: 'lostar';
-    border-radius: 100px 0;
+    border-radius: 0 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
