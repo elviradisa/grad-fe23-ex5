@@ -20,16 +20,10 @@
     src: url('./font/AURORA-PRO.otf'); */
 }
 
-@keyframes gradient-swipe {
-    0% { background-position: -100% 0; }
-    100% { background-position: 100% 0; }
-}
-
 body {
     margin: 0;
     padding: 0;
     background-attachment: scroll;
-
 }
 
 .background-fixed {
@@ -76,7 +70,7 @@ body {
     padding: 20px;
     border: 2px solid rgb(255, 255, 255);
     color: white;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.252);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.134);
 }
 
 h1 {
