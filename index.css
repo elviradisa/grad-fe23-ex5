@@ -70,7 +70,7 @@ body {
     padding: 20px;
     border: 2px solid rgb(255, 255, 255);
     color: white;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.134);
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.492);
 }
 
 h1 {
@@ -117,7 +117,7 @@ a {
     text-decoration: none;
     font-size: 20px;
     font-weight: 600;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.564);
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.492);
 }
 
 .menu-mobile {
@@ -144,7 +144,7 @@ a {
     align-items: center;
     box-sizing: border-box;
     letter-spacing: 1.5px;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.564);
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.492);
 }
 
 .day {
