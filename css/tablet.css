@@ -1,6 +1,6 @@
 @media (max-width: 769px) {
     body {
-        background-image: url('../img/röd-brudslöja.avif');
+        background-image: url('../img/liquid.jpg');
         background-position: center;
     }
 
@@ -9,9 +9,8 @@
     }
 
     .header {
-        border: 2px solid white;
+        border: 2px solid rgb(255, 255, 255);
         color: white;
-        text-shadow: 5px 5px 10px #4e1d1d4c;
     }
 
     .star {
@@ -26,26 +25,10 @@
         border: 2px solid white;
     }
 
-    .main-image-overlay {
-        /* background-image: url('../img/cherry.png');
-        /* filter: drop-shadow(-5px 30px 8px #3b138b90); */
-        /* background-size: 400px;
-        background-position: center; */ 
-    }
-
     .main-info {
         color: white;
         text-shadow: 5px 5px 10px #4e1d1d4c;
         border: 2px solid white;
-    }
-
-    .day {
-        font-size: 30px;
-    }
-
-    .year {
-        font-size: 35px;
-        text-align: center;
     }
 
     a {
@@ -69,12 +52,8 @@
         display: none;
     }
 
-    .image-gallery {
-        grid-template-columns: repeat(3, 1fr); /* 3 kolumner */
-    }
-
     .add-image {
-        background-image: url('../img/plus-gul.png');
+        background-image: url('../img/plus-white.png');
     }
        
     .add-image:hover {
