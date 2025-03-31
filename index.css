@@ -28,11 +28,20 @@
 body {
     margin: 0;
     padding: 0;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+    background-attachment: scroll;
+
+}
+
+.background-fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
     background-image: url('img/liquid.jpg');
+    background-size: cover;
     background-position: center;
+    z-index: -1;
 }
 
 #container {
@@ -52,7 +61,6 @@ body {
     margin-top: 20px;
     margin-bottom: 20px;
     background-color: transparent;
-    background-attachment: fixed;
 }
 
 .header {
