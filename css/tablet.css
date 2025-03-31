@@ -2,6 +2,7 @@
     body {
         background-image: url('../img/liquid.jpg');
         background-position: center;
+        background-attachment: fixed;
     }
 
     .wrapper {
